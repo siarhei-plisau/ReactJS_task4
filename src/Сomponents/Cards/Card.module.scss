@@ -1,0 +1,29 @@
+@font-face { 
+    font-family: "MarvelPro"; 
+    src: url("../../Assets/font/MavenPro-Regular.ttf"); 
+  }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 275px;
+    border: 1px rgb(219, 216, 216) solid;
+    border-radius: 20px;
+    background-color: white;
+
+    p {
+        text-align: center;
+        font-family: MarvelPro;
+        font-size: 16px;
+    }
+    p:first-child {
+        font-weight: 600;
+    }
+    img {
+        width: 90%;
+        height: auto;
+    }
+}
