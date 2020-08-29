@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Main.module.scss';
-import CardContainer from '../Cards/CardsContainer'
+import CardContainer from '../CardsContainer'
 
 function Main() {
     return (
