@@ -2,12 +2,13 @@
   font-family: "MarvelPro"; 
   src: url("../../Assets/font/MavenPro-Regular.ttf"); 
 }
+
 .form {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 1200px;
-  height: 50px;
+  height: 70px;
   border-bottom: 2px #363535 solid;
   button, input:focus {
     outline: 0;
@@ -15,11 +16,17 @@
   label {
     color: rgb(250, 245, 245);
     font-family: MarvelPro;
+    position: relative;
+  }
+  .inputError:focus {
+    border: 1px solid red;
+    outline: none;
   }
   
   .inputPrice {
-    width: 60px;
+    width: 120px;
   }
+
   .inputTitle {
     width: 120px;
   }
